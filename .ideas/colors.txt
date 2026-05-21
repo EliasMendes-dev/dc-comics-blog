@@ -1,0 +1,10 @@
+Cor Primaria
+#111111
+
+Cor Secundaria
+#4d4d4d
+
+Cor da Logo
+#f35f48
+#f32d88
+
