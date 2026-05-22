@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*Root styles*/
+:root {
+  --cor-primaria: #111111;
+  --cor-secundaria: #4d4d4d;
+  --cor-primaria-logo: #f35f48;
+  --cor-secundaria-logo: #f32d88;
+  --cor-texto: #ffffff;
+  --espacamento-lateral: 25px;
+}
+
+/*Light Mode */
+body.light-mode {
+  --cor-primaria: #f0f0f0;
+  --cor-secundaria: #cccccc;
+  --cor-primaria-logo: #f35f48;
+  --cor-secundaria-logo: #f32d88;
+  --cor-texto: #000000;
+}
+
+/*Reset global styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto);
+}

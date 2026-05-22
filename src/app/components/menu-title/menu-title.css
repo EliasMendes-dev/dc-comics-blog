@@ -1,0 +1,19 @@
+.menu-title-container {
+  background-color: var(--cor-primaria);
+}
+
+.menu-title-container h1 {
+  font-size: 4.8rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.menu-title-container hr {
+  border: none;
+  height: 1px;
+  background-color: var(--cor-secundaria);
+  margin: 20px 0;
+}
