@@ -1,0 +1,29 @@
+.container-menu-bar{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 5rem;
+}
+
+.logo-image {
+  width: 35px;
+  height: auto;
+}
+
+.container-menu-bar > ul{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.container-menu-bar > ul > li{
+  list-style: none;
+}
+
+.container-menu-bar > ul > li:hover{
+  color: var(--cor-primaria-logo);
+}

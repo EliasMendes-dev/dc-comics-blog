@@ -1,19 +1,14 @@
-.menu-title-container {
-  background-color: var(--cor-primaria);
-}
-
-.menu-title-container h1 {
-  font-size: 4.8rem;
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.container-menu-title > h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 135px;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: center;
-  text-transform: uppercase;
 }
 
-.menu-title-container hr {
-  border: none;
-  height: 1px;
-  background-color: var(--cor-secundaria);
-  margin: 20px 0;
+#dc {
+  color: var(--cor-primaria-logo);
+  margin-right: 20px;
 }
+

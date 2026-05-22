@@ -6,6 +6,7 @@ import { Home } from './pages/home/home';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [
     RouterOutlet,
     CommonModule,
@@ -13,7 +14,7 @@ import { Home } from './pages/home/home';
     Home
   ],
   templateUrl: './app.html',
-  styleUrl: './app.css',
+  styleUrls: ['./app.css'],
 })
 export class App {
   protected readonly title = signal('angular-blog');
