@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 2px solid white;
+  background: color-mix(in srgb, var(--cor-primaria) 96%, transparent);
+}

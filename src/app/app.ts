@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Home } from './pages/home/home';
+import { MenuBar } from './components/menu-bar/menu-bar';
 
 @Component({
   selector: 'app-root',
@@ -11,8 +12,10 @@ import { Home } from './pages/home/home';
     RouterOutlet,
     CommonModule,
     FormsModule,
-    Home
+    Home,
+    MenuBar
   ],
+  
   templateUrl: './app.html',
   styleUrls: ['./app.css'],
 })

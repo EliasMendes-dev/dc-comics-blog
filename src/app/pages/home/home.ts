@@ -18,6 +18,8 @@ import { SmallCard } from '../../components/small-card/small-card';
 })
 export class Home implements OnInit {
 
+
+
   constructor() { }
 
   ngOnInit(): void {

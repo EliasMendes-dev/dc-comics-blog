@@ -6,6 +6,7 @@
   --cor-secundaria: #4d4d4d;
   --cor-primaria-logo: #0C7DC3;
   --cor-texto: #ffffff;
+  --cor-texto-secundario: gray;
   --espacamento-lateral: 25px;
 }
 
@@ -15,6 +16,7 @@ body.light-mode {
   --cor-secundaria: #cccccc;
   --cor-primaria-logo: #25a3f2;
   --cor-texto: #000000;
+  --cor-texto-secundario: #999999;
 }
 
 /*Reset global styles*/
