@@ -2,7 +2,6 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Home } from './pages/home/home';
 import { MenuBar } from './components/menu-bar/menu-bar';
 
 @Component({
@@ -12,10 +11,9 @@ import { MenuBar } from './components/menu-bar/menu-bar';
     RouterOutlet,
     CommonModule,
     FormsModule,
-    Home,
     MenuBar
   ],
-  
+
   templateUrl: './app.html',
   styleUrls: ['./app.css'],
 })

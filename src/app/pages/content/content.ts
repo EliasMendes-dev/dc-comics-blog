@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
 import { OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { dataFake } from '../../data/dataFake';
@@ -15,7 +14,7 @@ interface Article {
 
 @Component({
   selector: 'app-content',
-  imports: [RouterLink],
+  imports: [],
   templateUrl: './content.html',
   styleUrl: './content.css',
 })
